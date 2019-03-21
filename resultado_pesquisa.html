@@ -43,22 +43,66 @@
                         <td align="center">
 
                                 <br>
-                                <table align="center" border="0" align="center" width="90%">
+                                <table align="center" border="0" align="center" width="95%">
                                     <tr>
-                                        <td width="50%" valign="top">
+                                        <td width="100%" valign="top">
 
-                                            <table width="100%">
+                                            <table width="100%" border="0">
                                                 <tr>
                                                     <td style="color:white;">
 
                                                         Encontre o imóvel do seu interesse:<br><br>
 
-                                                        <input class="form-control form-control-sm col-sm-8" type="text" placeholder="Região administrativa...">
-                                                        <br>
-                                                        <input class="form-control form-control-sm col-sm-5" type="text" placeholder="Setor...">
-                                                        <br>
-                                                        <input class="form-control form-control-sm col-sm-4" type="text" placeholder="Destinação...">
+                                                        <div class="form-row">
+                                                            <input class="form-control form-control-sm col-sm-5" type="text" placeholder="Região administrativa...">&nbsp;&nbsp;
 
+                                                            <input class="form-control form-control-sm col-sm-4" type="text" placeholder="Setor...">&nbsp;&nbsp;
+
+                                                            <input class="form-control form-control-sm col-sm-2" type="text" placeholder="Destinação...">
+                                                            <!--
+                                                            <select class="form-control form-control-sm col-sm-2">
+                                                                <option>Destinação...</option>
+                                                                <option>Destinação 1</option>
+                                                                <option>Destinação 2</option>
+                                                                <option>Destinação 3</option>
+                                                            </select>
+                                                            -->
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+
+                                                        <br>
+                                                        <table width="100%" BORDER="0">
+                                                            <tr>
+                                                                <td style="color:white;" width="30%">
+
+                                                                    Faixa de preço por m²:<br><br>
+
+                                                                    <div class="form-row">
+                                                                        <input class="form-control form-control-sm col-sm-5" type="text" placeholder="Valor mín...">&nbsp;&nbsp;
+                                                                        <input class="form-control form-control-sm col-sm-5" type="text" placeholder="Valor máx...">
+                                                                    </div>
+
+                                                                </td>
+                                                                <td style="color:white;" width="30%">
+
+                                                                    Faixa de tamanho por m²:<br><br>
+
+                                                                    <div class="form-row">
+                                                                        <input class="form-control form-control-sm col-sm-5" type="text" placeholder="Valor mín...">&nbsp;&nbsp;
+                                                                        <input class="form-control form-control-sm col-sm-5" type="text" placeholder="Valor máx...">
+                                                                    </div>
+
+                                                                </td>
+                                                                <td align="center" width="30%" valign="bottom">
+                                                                    <button type="button" class="btn btn-primary btn-5-sm">Pesquisa Rápida</button>
+                                                                </td>
+
+                                                            </tr>
+                                                        </table>
 
                                                     </td>
                                                 </tr>
@@ -66,36 +110,7 @@
 
                                             <br>
                                         </td>
-                                        <td width="50%" valign="top">
-
-                                            <table width="100%" BORDER="0">
-                                                <tr>
-                                                    <td style="color:white;">
-
-                                                        Faixa de preço por m2:<br><br>
-
-                                                        <input class="form-control form-control-sm col-sm-9" type="text" placeholder="Valor mínino...">
-                                                        <br>
-                                                        <input class="form-control form-control-sm col-sm-9" type="text" placeholder="Valor máximo...">
-
-
-                                                    </td>
-                                                    <td style="color:white;">
-
-                                                        Faixa de tamanho por m2:<br><br>
-
-                                                        <input class="form-control form-control-sm col-sm-9" type="text" placeholder="Valor mínino...">
-                                                        <br>
-                                                        <input class="form-control form-control-sm col-sm-9" type="text" placeholder="Valor máximo...">
-
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2" align="center"><br><br><button type="button" class="btn btn-primary btn-5-sm">Pesquisa Rápida</button></td>
-                                                </tr>
-                                            </table>
-
-                                        </td>
+                                    </tr>
                                 </table>
 
 
@@ -104,22 +119,155 @@
                 </table>
             </div>
 
-            <div style="background-color:black;opacity:0.7;position:absolute;z-index:-1;width:100%;height:350px;top:0">
+            <div style="background-color:black;opacity:0.7;position:absolute;z-index:-1;width:100%;height:260px;top:0">
             </div>
 
-            <div style="background-color:#EBEBE8;opacity:0.9;position:absolute;z-index:-1;width:100%;height:50px;top:300">
+            <div style="background-color:#EBEBE8;opacity:0.8;position:absolute;z-index:-1;width:100%;height:50px;top:260">
             </div>
 
-            <div style="opacity:1;position:absolute;margin-left:15%;text-align:left;width:70%;top:310;border:0px solid;">
+            <div style="opacity:1;position:absolute;margin-left:15%;text-align:left;width:70%;top:270;border:0px solid;">
                 <table width="100%" border="0">
                     <tr>
-                        <td style="font-size:20">Foram encontrados 10 imóveis em disponibilidade</td>
+                        <td style="font-size:20"><b>Foram encontrados 10 imóveis em disponibilidade</b></td>
                         <td style="font-size:12" align="right">Ordenar por:
                         <td style="font-size:12">
                             <select class="form-control form-control-sm">
                                 <option>Relvância</option>
                                 <option>Valor</option>
                             </select>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div style="background-color:#EBEBE8;opacity:0.9;position:absolute;margin-left:10%;z-index:-1;width:80%;height:1500px;top:310">
+            </div>
+
+            <div style="opacity:1;position:absolute;margin-left:15%;text-align:left;width:70%;top:320;border:0px solid;">
+
+                <table width="100%" border="0">
+                    <tr>
+                        <td style="font-size:20">
+
+                            <table width="100%" border="0">
+                                <tr>
+                                    <td valign="top" width="350px" rowspan="2">
+                                        <img src="imagens/fotoPonteJK.jpg" width="350px">
+                                    </td>
+                                    <td valign="top" height="100%">
+                                        <h2><b>Lorem Ipsum</b></h2>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur feugiat enim sed blandit.
+                                            Aliquam vehicula justo eget orci vehicula, non ornare risus suscipit. Nam faucibus risus aliquet, lacinia dui ut, ullamcorper lorem.
+                                            Integer lorem ligula, ultrices quis libero quis, dignissim bibendum turpis. Nulla vel urna porta, blandit ex a, consequat arcu.
+                                            Donec ipsum dolor, porttitor vitae faucibus porta, vehicula a nisl. Morbi iaculis ante ut sapien porta, eu aliquam ante placerat.
+                                            Suspendisse fermentum sit amet diam a blandit.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <button type="button" class="btn btn-primary btn-sm">Ver Edital</button>
+                                        <button type="button" class="btn btn-link">Participar da Licitação</button>
+                                        <button type="button" class="btn btn-link">Incluir em Edital</button>
+                                        <button type="button" class="btn btn-link">Tenho Interesse!</button>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size:20">
+
+                            <table width="100%" border="0">
+                                <tr>
+                                    <td valign="top" width="350px" rowspan="2">
+                                        <img src="imagens/fotoPracaBrasilia.jpg" width="350px">
+                                    </td>
+                                    <td valign="top" height="100%">
+                                        <h2><b>Lorem Ipsum</b></h2>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur feugiat enim sed blandit.
+                                            Aliquam vehicula justo eget orci vehicula, non ornare risus suscipit. Nam faucibus risus aliquet, lacinia dui ut, ullamcorper lorem.
+                                            Integer lorem ligula, ultrices quis libero quis, dignissim bibendum turpis. Nulla vel urna porta, blandit ex a, consequat arcu.
+                                            Donec ipsum dolor, porttitor vitae faucibus porta, vehicula a nisl. Morbi iaculis ante ut sapien porta, eu aliquam ante placerat.
+                                            Suspendisse fermentum sit amet diam a blandit.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <button type="button" class="btn btn-primary btn-sm">Ver Edital</button>
+                                        <button type="button" class="btn btn-link">Participar da Licitação</button>
+                                        <button type="button" class="btn btn-link">Incluir em Edital</button>
+                                        <button type="button" class="btn btn-link">Tenho Interesse!</button>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size:20">
+
+                                                        <table width="100%" border="0">
+                                <tr>
+                                    <td valign="top" width="350px" rowspan="2">
+                                        <img src="imagens/fotoBrasilia.jpg" width="350px">
+                                    </td>
+                                    <td valign="top" height="100%">
+                                        <h2><b>Lorem Ipsum</b></h2>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur feugiat enim sed blandit.
+                                            Aliquam vehicula justo eget orci vehicula, non ornare risus suscipit. Nam faucibus risus aliquet, lacinia dui ut, ullamcorper lorem.
+                                            Integer lorem ligula, ultrices quis libero quis, dignissim bibendum turpis. Nulla vel urna porta, blandit ex a, consequat arcu.
+                                            Donec ipsum dolor, porttitor vitae faucibus porta, vehicula a nisl. Morbi iaculis ante ut sapien porta, eu aliquam ante placerat.
+                                            Suspendisse fermentum sit amet diam a blandit.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <button type="button" class="btn btn-primary btn-sm">Ver Edital</button>
+                                        <button type="button" class="btn btn-link">Participar da Licitação</button>
+                                        <button type="button" class="btn btn-link">Incluir em Edital</button>
+                                        <button type="button" class="btn btn-link">Tenho Interesse!</button>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size:20">
+
+                            <table width="100%" border="0">
+                                <tr>
+                                    <td valign="top" width="350px" rowspan="2">
+                                        <img src="imagens/fotoBrasilia2.jpg" width="350px">
+                                    </td>
+                                    <td valign="top" height="100%">
+                                        <h2><b>Lorem Ipsum</b></h2>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur feugiat enim sed blandit.
+                                            Aliquam vehicula justo eget orci vehicula, non ornare risus suscipit. Nam faucibus risus aliquet, lacinia dui ut, ullamcorper lorem.
+                                            Integer lorem ligula, ultrices quis libero quis, dignissim bibendum turpis. Nulla vel urna porta, blandit ex a, consequat arcu.
+                                            Donec ipsum dolor, porttitor vitae faucibus porta, vehicula a nisl. Morbi iaculis ante ut sapien porta, eu aliquam ante placerat.
+                                            Suspendisse fermentum sit amet diam a blandit.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <button type="button" class="btn btn-primary btn-sm">Ver Edital</button>
+                                        <button type="button" class="btn btn-link">Participar da Licitação</button>
+                                        <button type="button" class="btn btn-link">Incluir em Edital</button>
+                                        <button type="button" class="btn btn-link">Tenho Interesse!</button>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
 
                         </td>
                     </tr>
